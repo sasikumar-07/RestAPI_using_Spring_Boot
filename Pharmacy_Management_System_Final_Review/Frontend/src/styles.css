@@ -1,0 +1,268 @@
+
+/* AddMedicine.js Styles */
+.add-medicine-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .add-medicine-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .add-medicine-form label {
+    font-weight: bold;
+  }
+  
+  .add-medicine-form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .add-medicine-form button {
+    padding: 10px 20px;
+    background-color: #519ef1;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* ListMedicines.js Styles */
+  .medicine-list-container {
+    margin: 20px;
+    padding: 20px;
+    border: 10px solid #2b9e3e;
+    border-radius: px;
+    background-color: #b76262;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .medicine-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .medicine-list li {
+    /* padding: 10px; */
+    border: 10px solid #cccccc;
+    /* border-radius: 3px;
+    margin-bottom: 10px; */
+    background-color: #9c2a2a;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+  }
+  
+  .medicine-list li h4 {
+    margin: 0;
+  }
+  
+  /* UpdateMedicine.js and DeleteMedicine.js Styles (Reuse AddMedicine.js styles) */
+  .update-medicine-container,
+  .delete-medicine-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #60d96c;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .update-medicine-container h2,
+  .delete-medicine-container h2 {
+    text-align: center;
+  }
+  
+  .update-medicine-form,
+  .delete-medicine-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .update-medicine-form label,
+  .delete-medicine-form label {
+    font-weight: bold;
+  }
+  
+  .update-medicine-form input[type="text"],
+  .delete-medicine-form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .update-medicine-form button,
+  .delete-medicine-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Footer.js Styles */
+  .footer {
+    background-color: #333;
+    color: #c82121;
+    /* text-align: center; */
+    padding: 10px 10px;
+  }
+  
+  .footer a {
+    color: #e5e4e7;
+    text-decoration: none;
+    margin:  10px;
+    font-size: 25px;
+
+  }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 10;
+    width: 100%;
+  }
+  
+  .footer a:hover {
+    text-decoration:underline ;
+  }
+  
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #aadff8;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #22d20e;
+  color: #3cac3f;
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  margin: 0;
+  font-size: 32px;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+
+}
+
+/* Form Styles */
+form {
+  background-color: #d2a1a1;
+  padding: 20px;
+  border-radius: 9px;
+  box-shadow: 0 2px 4px rgba(130, 36, 36, 0.1);
+}
+
+form input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 1px;
+  border: 2px solid #9ac44c;
+  border-radius: 9cqmax;
+}
+
+form input[type="number"] {
+  width: 50%;
+  padding: 15px;
+  margin-bottom: 1px;
+  border: 2px solid #9ac44c;
+  border-radius: 9cqmax;
+}
+
+form button[type="submit"] {
+  background-color: #3d638a;
+  color: #e7d4d4;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #dad0d6;
+  padding: 10px;
+  margin: 10px 0;
+  border: 5px solid #268fc7;
+  border-radius: 3px;
+}
+
+/* Messages Styles */
+p {
+  font-weight: bold;
+  color: #007BFF;
+  margin-top: 14px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  form input[type="text"] {
+    width: 100%;
+  }
+  
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+/* styles.css */
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to the text elements */
+h1, p {
+  animation: slideIn 1s ease-in-out;
+}
+
+
+}
